@@ -1,0 +1,8 @@
+file_name=input("Enter you name : ")
+
+#function to split between sentences
+first,last=file_name.split(".")
+
+print(f"This is  .{last} file")
+print("The file is : "+last)
+print("The file format : ."+last,end="\n",sep=' ')
