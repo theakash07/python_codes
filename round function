@@ -1,0 +1,17 @@
+x=int(input("Enter x :?"))
+y=int(input("Enter Y: ?"))
+
+#round function used for rounding off the number.
+z=(x+y)
+
+#here using f formatting method for formatting the number to make it more readable...
+print(f"{z:,}")
+
+a=float(input("Enter Value of A: "))
+b=float(input("Enter value of B: "))
+
+#Can Use round function as well round() of the values.
+S=a/b
+#use .2f for upto 2 digit print after decimal
+print(f"{S:.2f}")
+
