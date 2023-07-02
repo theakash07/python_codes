@@ -1,0 +1,21 @@
+name=input("Enter you name").strip().title() #you can use like this as welll as much as you want 
+
+#function to remove white spaces
+#name=name.strip()
+
+#function to capitalize the name. only capitalize the first letter of word
+#name=name.capitalize()
+#instead of capitalize command use title command
+#name=name.title()
+
+#you can use both the function in one line 
+#name= strip().title()
+
+#seperator command to seperate with a white space sep='#you could seprate with anything you want '
+#end='\n' this command stop the print function to move on to the next line.
+#print("Hello",name,sep=" ",end='\n')
+
+
+#special method for formatting 
+#using f method it tells the interpreter that in this print something special is there unde {} bracket.
+print(f"Hello, {name}")
