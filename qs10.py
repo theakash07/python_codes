@@ -14,3 +14,17 @@ def value(n):
     return result
 
 main()
+
+#one more approach to the question 
+
+def main():
+    num=input("Enter data: ")
+    sum=getdata(num)
+    
+def getdata(n):
+    n1=n+n
+    n2=n+n+n
+    
+    print(int(n)+int(n1)+int(n2))
+    
+main()
