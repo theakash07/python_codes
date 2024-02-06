@@ -11,3 +11,4 @@ while target_num != guess_num:
         continue
 
 print('Well guessed!')
+#code for number guessing game
